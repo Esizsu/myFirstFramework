@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 public class gotoWebPage {
 
         @Test
+
         public void gotoWebUniv() {
             System.setProperty("webdriver.chrome.driver", "webdriver\\chromedriver.exe");
             WebDriver driver = new ChromeDriver();
